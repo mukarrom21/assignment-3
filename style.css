@@ -1,0 +1,19 @@
+body {
+  font-family: "Poppins", sans-serif;
+  
+}
+.radius-1{border-radius: 25px;}
+.card {
+  transition: .5s all;
+}
+.card:hover  {
+    transform: scale(1.12);
+    z-index: 1;
+    cursor: pointer;
+}
+.card:hover .card>a {
+  background-color: white;
+}
+.btn{
+  transition: all 1s;
+}
