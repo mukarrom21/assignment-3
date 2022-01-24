@@ -21,11 +21,11 @@ body {
 .card {
   transition: 0.5s all;
 }
-.card:hover {
+/* .card:hover {
   transform: scale(1.12);
   z-index: 1;
   cursor: pointer;
-}
+} */
 .card:hover .card > a {
   background-color: white;
 }
