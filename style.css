@@ -1,19 +1,34 @@
 body {
   font-family: "Poppins", sans-serif;
-  
 }
-.radius-1{border-radius: 25px;}
+.radius-1 {
+  border-radius: 25px;
+}
+.zindex-100 {
+  z-index: 100;
+}
+.zindex-200 {
+  z-index: 200;
+}
+.zindex-300 {
+  z-index: 300;
+}
+.badge-top {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
 .card {
-  transition: .5s all;
+  transition: 0.5s all;
 }
-.card:hover  {
-    transform: scale(1.12);
-    z-index: 1;
-    cursor: pointer;
+.card:hover {
+  transform: scale(1.12);
+  z-index: 1;
+  cursor: pointer;
 }
-.card:hover .card>a {
+.card:hover .card > a {
   background-color: white;
 }
-.btn{
+.btn {
   transition: all 1s;
 }
