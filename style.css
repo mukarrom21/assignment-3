@@ -1,6 +1,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.bg-gray {
+  background-color: rgba(61, 57, 57, 0.219);
+}
+.w- {
+  width: 650px;
+}
+
 .radius-1 {
   border-radius: 25px;
 }
