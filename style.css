@@ -4,10 +4,15 @@ body {
 .bg-gray {
   background-color: rgba(61, 57, 57, 0.219);
 }
-.w- {
-  width: 650px;
+.bg-lightdark {
+  background-color: #202842;
 }
-
+.w-150 {
+  width: 150px;
+}
+.radius-00 {
+  border-radius: 50%;
+}
 .radius-1 {
   border-radius: 25px;
 }
@@ -25,17 +30,17 @@ body {
   top: 0;
   right: 10px;
 }
-.card {
-  transition: 0.5s all;
-}
-/* .card:hover {
-  transform: scale(1.12);
-  z-index: 1;
-  cursor: pointer;
-} */
-.card:hover .card > a {
-  background-color: white;
-}
 .btn {
   transition: all 1s;
+}
+.card-w {
+  width: 292px;
+  height: 480px;
+}
+.small-card {
+  width: 200px;
+  height: 200px;
+}
+.f-josefin {
+  font-family: "Josefin Sans", sans-serif;
 }
